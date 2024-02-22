@@ -1,0 +1,62 @@
+.section_grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 30px 5px;
+    padding: 5px;
+
+}
+.section_grid > div{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ margin: auto;
+ text-align: center;
+ font-family: arial;
+ background-color: white;
+ border: 1px solid green;
+ width: 200px;
+ height: auto;
+ 
+}
+
+.section_grid > div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+   border-color: orange;
+   transition: 0.5s;
+}
+
+.section_grid > div:hover img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    width: 100%;
+   transition: 0.5s;
+}
+.section_grid > div img{
+    width:180px ;
+    height: 180px;
+    
+}
+
+.section_grid > div button{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+
+.section_grid > div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+   border-color: orange;
+   transition: 0.5s;
+}
+.section_grid > div h3{
+    color: #0B4141;
+}
+.section_grid > div:hover h3{
+    color: orange;
+}
+
+.section_grid > div button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
